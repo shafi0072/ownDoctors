@@ -3,7 +3,7 @@ import React from 'react';
 const YourCountryDoctors = () => {
     return (
         <div>
-            <h5>Country DOctor</h5>
+            <h5>Emargency Doctors</h5>
         </div>
     );
 };
