@@ -1,10 +1,11 @@
 import React from 'react';
 
-const DoctorsName = (query) => {
-    const {name, id, username} = query
+const DoctorsName = (props) => {
+    const {name, id, username} = props.data
+   
     return (
         <div>
-           <h5>{name}</h5>
+           <p>{name}</p>
         </div>
     );
 };
