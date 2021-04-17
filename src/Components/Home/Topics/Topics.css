@@ -1,8 +1,12 @@
 .doctors{
     border-right: 1px solid lightgray;
-    height: 100vh;
+    height: 150vh;
+    background-color: #106e90;
+    color: white;
 }
 .countryDc{
     border-left: 1px solid lightgray;
-    height: 100vh;
+    height: 150vh;
+    background-image: linear-gradient(to left, rgba(0, 153, 255, 0.719), rgb(8, 218, 233));
+    color: white;
 }
