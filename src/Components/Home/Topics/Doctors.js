@@ -15,7 +15,6 @@ const Doctors = () => {
     return (
         <div>
             <h5>Doctors</h5>
-            <p>{doctorsName.length}</p>
             <div>
                {
                    doctorsName.map(data => <DoctorsName data={data} />)
